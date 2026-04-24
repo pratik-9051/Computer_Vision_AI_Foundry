@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import tempfile
 import os
-
+import cv2
 # Load model once
 model = YOLO("models/best.pt")
 
